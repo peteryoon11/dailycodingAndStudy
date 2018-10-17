@@ -11,7 +11,7 @@ landscape = { 'home': {'hairShop':5, 'superMarket':10, 'EnglishAcademy':9}, 'hai
 routing = {} 
 for place in landscape.keys(): 
     routing[place]={'shortestDist':0, 'route':[], 'visited':0} 
-#④ 
+#④ ``````
 def visitPlace(visit): 
     routing[visit]['visited'] = 1 
     for toGo, betweenDist in landscape[visit].items(): 
