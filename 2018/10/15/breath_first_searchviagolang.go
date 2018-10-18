@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-type serach_obeject struct {
-	graph map[string][]string
-}
-
 func Contains(a []string, x string) bool {
 	for _, n := range a {
 		if x == n {
@@ -21,7 +17,7 @@ func Contains(a []string, x string) bool {
 func search(name string, graph map[string][]string) bool {
 
 	var search_queue = []string{}
-	//search_queue := make([]string)
+
 	search_queue = append(search_queue, graph[name]...)
 	var serarched = []string{}
 
@@ -50,13 +46,10 @@ func person_is_sellor(name string) bool {
 
 }
 func main() {
-	var Search_object serach_obeject
-
-	Search_object.graph["you"] = []string{"alice", "bob", "claire"}
 
 	graph := make(map[string][]string)
 	graph["you"] = []string{"alice", "bob", "claire"}
-	//https: //stackoverflow.com/questions/4286615/how-do-i-create-a-map16bytestring-in-go
+	// https: //stackoverflow.com/questions/4286615/how-do-i-create-a-map16bytestring-in-go
 	graph["bob"] = []string{"anju", "peggy"}
 	graph["alice"] = []string{"peggy"}
 	graph["claire"] = []string{"thom", "jonny"}
