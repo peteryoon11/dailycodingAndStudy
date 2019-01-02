@@ -25,6 +25,7 @@ MAT 로 힙덤프 를 떠서 분석을 하려면
 
 Jmap -dump:format=b,file=heap."pid".hpronf "pid"
 
+<<<<<<< HEAD
 로 파일을 만든 후에 로컬로 가져와서 eclipse 에서 mat 로 분석한다. 
 
 
@@ -35,3 +36,6 @@ Jmap -dump:format=b,file=heap."pid".hpronf "pid"
 스레드 덤프(thread dump)를 저장하지 않아 로그만으로는 정확한 원인을 파악하기 힘들다. 다음부터는 스레드 덤프를 저장하기로 했다. 3개월 동안 아무 문제가 없었는데 원인이 무엇일까?
 
 출처: <https://d2.naver.com/helloworld/1326256> 
+=======
+로 파일을 만든 후에 로컬로 가져와서 eclipse 에서 mat 로 분석한다. 
+>>>>>>> 09eb2e325a484a7300ea60706922425e622670fd
