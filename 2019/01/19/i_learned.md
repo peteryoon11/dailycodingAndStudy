@@ -37,3 +37,7 @@ http://pythonstudy.xyz/python/article/508-%EB%A9%94%EC%9D%BC-%EB%B3%B4%EB%82%B4%
 
 파이썬을 사용하여 HTML 이메일 보내기
 https://stackoverrun.com/ko/q/12336929
+
+
+golang 으로 html 메일 보내기   검증 해보기 
+https://www.bada-ie.com/board/view/?page=2&uid=1515&category_code=91&code=all&key=&keyfield=
