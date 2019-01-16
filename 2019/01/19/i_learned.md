@@ -16,8 +16,11 @@ ALTER TABLE "테이블 이름" ADD ( CONSTRAINT "primary key 이름" PRIMARY KEY
 
 java 8 에서 사용하는 특징들에 대해서 좀 더 찾아 보자.
 
+
+
 https://lng1982.tistory.com/240
 
+http://pigbrain.github.io/java/2016/04/04/Java8_on_Java
 
 Wildcard Generic Type
 
@@ -41,3 +44,5 @@ https://stackoverrun.com/ko/q/12336929
 
 golang 으로 html 메일 보내기   검증 해보기 
 https://www.bada-ie.com/board/view/?page=2&uid=1515&category_code=91&code=all&key=&keyfield=
+
+
