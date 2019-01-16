@@ -29,7 +29,7 @@ Wildcard Generic Type
 
 
 ---------------------
-
+친구 때문에 알아본 부분 실제로는 아직 안함 
 
 파이썬으로 메일 보내기 예제 
 http://pythonstudy.xyz/python/article/508-%EB%A9%94%EC%9D%BC-%EB%B3%B4%EB%82%B4%EA%B8%B0-SMTP
