@@ -16,3 +16,5 @@ equal
 converter
 
 https://jojoldu.tistory.com/134
+
+cut -c ":"
