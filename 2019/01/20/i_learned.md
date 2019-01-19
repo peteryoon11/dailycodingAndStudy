@@ -19,3 +19,5 @@ sort test.txt | uniq -c | sort -nr
       1 ccc
       1 bbbd dfdf
       1 aaa
+
+grep -v DDD
