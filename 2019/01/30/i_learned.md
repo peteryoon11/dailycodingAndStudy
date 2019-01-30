@@ -23,3 +23,6 @@ content=$(cat /proc/sys/fs/file-nr)
  
 echo "[$NOW] $content " >>$LOG
 `
+
+# 매분 마다 bizcpn 의 파일 사용 갯수를 확인 해서 로그로 남김
+* * * * * /home/testuser/sh-test/log-record-total.sh
