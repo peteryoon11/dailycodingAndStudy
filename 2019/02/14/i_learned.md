@@ -5,6 +5,12 @@
 
 cat /usr/lib/tmpfiles.d/*.conf
 
+cat /usr/lib/tmpfiles.d/tmp.conf
+# X 가 앞에 있으면 정리 하지 않음 
+X /tmp/testTmp 
+# d 가 있으면 d 기준으로 정리 
+d /tmp 1777 root root 10d 
+
 아래 참고 사이트는 RHEL7 기준 인듯 그런데 centos7 이나 RHEL7 이나 모두 같은 거로 
 
 알고있는데 다르다..
@@ -32,3 +38,8 @@ java -Djava.io.tmpdir=/path/to/tmpdir
 `
 jinfo [PID]
 `
+
+
+org.quartz.job 
+
+https://homoefficio.github.io/2018/08/12/Java-Quartz-Scheduler-Job-Chaining-%EA%B5%AC%ED%98%84/
