@@ -26,3 +26,6 @@ https://civan.tistory.com/113
 		 *  default 로 하면 1L 로 성의 없게 만들어진다.
 		 */
 		private static final long serialVersionUID = -1187593977680314664L;
+
+golang enum 관련 해서 예제 코드를 추가해 보자. 
+./testCode/golang_serialize/serial_proto.go
