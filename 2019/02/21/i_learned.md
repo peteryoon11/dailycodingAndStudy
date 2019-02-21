@@ -18,3 +18,11 @@ https://javafactory.tistory.com/1388
 eclipse 에서나 intellij 에서나 기본적으로 serailVersionUID를 생성해 주지만 명시적으로  주는게 더 안전하다고 함 
 
 https://civan.tistory.com/113
+
+
+
+/**
+		 *  generated serialVersionUID 를 통해서 만들어진 uid 
+		 *  default 로 하면 1L 로 성의 없게 만들어진다.
+		 */
+		private static final long serialVersionUID = -1187593977680314664L;
