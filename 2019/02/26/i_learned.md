@@ -7,3 +7,5 @@
 cat /proc/프로세스아이디/status | grep VmSize
 
 https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81
+
+https://nesoy.github.io/articles/2018-06/Java-equals-hashcode
