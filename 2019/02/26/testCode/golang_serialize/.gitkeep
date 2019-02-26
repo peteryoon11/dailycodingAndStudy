@@ -1,0 +1,9 @@
+git config --local user.name "name"
+
+을 했는데도 나의 github 계정에 자꾸 
+
+
+일단 아래의 경우로 해결 했는데..
+
+아러면 여러개의 계정으로 하나의 컴퓨터에서 push 나 pull 이 안되는거 아닌가?
+https://recoveryman.tistory.com/392
