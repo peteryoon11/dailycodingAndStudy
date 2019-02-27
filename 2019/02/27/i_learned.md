@@ -20,4 +20,7 @@ public interface CoinRepository extends JpaRepository<CoinEntity, String>, JpaSp
 
 jpamodelgen 관련 내용 
 
-https://github.com/iboyko/gradle-plugins/tree/master/jpamodelgen-plugin
+https://gist.github.com/jjangga0214/e8f8d46459657f42608400af47f057f2
+
+
+hhttps://github.com/iboyko/gradle-plugins/tree/master/jpamodelgen-plugin
