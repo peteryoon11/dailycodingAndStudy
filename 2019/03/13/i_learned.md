@@ -20,3 +20,9 @@ http://www.jiniya.net/wp/archives/918
 https://ko.wikipedia.org/wiki/%EB%A7%A8%EB%A8%BC%EC%8A%A4_%EB%AF%B8%EC%8B%A0
 
 맨먼스 미신(The Mythical Man-Month: Essays on Software Engineering)은 소프트웨어 공학 및 프로젝트 관리에 관한 책이다. 프레더릭 브룩스는 이 책에서 "지체되는 개발 프로젝트에 인력을 더하는 것은 개발을 늦출 뿐"이라 주장하였으며 이는 브룩스의 법칙으로 불린다.
+
+아래는 위에서 나온 브룩스의 법칙에 대한 위키백과 내용 
+
+https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A3%A9%EC%8A%A4%EC%9D%98_%EB%B2%95%EC%B9%99
+
+브룩스의 법칙(Brooks' law)은 프레더릭 브룩스가 자신의 1975년 저서 《맨먼스 미신》 (The Mythical Man-Month)에서 "지체되는 소프트웨어 개발 프로젝트에 인력을 더하는 것은 개발을 늦출 뿐이다"라고 주장한 법칙이다. 브룩스는 "임산부가 아무리 많아도, 아이를 낳는 데에는 9개월이 걸린다"라고 자신의 주장을 비유적으로 표현했다. 이 브룩스 법칙이 자주 인용되지만, 《맨먼스 미신》에 이 주장 바로 위에 써 있던 "극도로 단순화해서 말하면"이란 구문을 생략되어 본뜻이 왜곡되어 전해지기도 한다.
