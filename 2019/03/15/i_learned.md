@@ -5,8 +5,14 @@ simpleTrigger
 CronTrigger
 
 
-https://devfun.tistory.com/1
+init 
 
+https://examples.javacodegeeks.com/enterprise-java/quartz/java-quartz-configuration-example/
 
-주말간 테스트 몇개 해볼 소스 
-https://github.com/thecodinglive/Jpub-JavaWebService
+3. Quartz Configuration
+The components that we will configure in this article are:
+
+JobStore
+DataSources
+Scheduler
+ThreadPoo
