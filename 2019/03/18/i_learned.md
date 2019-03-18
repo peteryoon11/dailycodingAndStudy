@@ -8,3 +8,8 @@
 
 아래 내용을 보고 따라 하자.
 https://examples.javacodegeeks.com/enterprise-java/quartz/quartz-scheduler-tutorial/
+
+
+transionManager 관련 내용 
+현재 테스트 중인 부분에서 계속 transionmanager 가 없다고 에러를 내고 있음 
+https://supawer0728.github.io/2018/03/22/spring-multi-transaction/
