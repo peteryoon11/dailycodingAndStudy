@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"strings"
 	"time"
@@ -26,21 +27,21 @@ func main() {
 	} */
 	//makeDir()
 	//	testFor()
-	dateFormat()
-	//fmt.Print(checkMonthDaysNumber(time.Now()))
+	//dateFormat()
+	fmt.Print(checkMonthDaysNumber(time.Now()))
 	//fmt.Println(" remains days")
 }
 func checkMonthDaysNumber(checkPoint time.Time) int {
 	tempMonth := checkPoint.Month()
-	count := 31
-	s := make([]int, count)
+	//count := 31
+	//s := make([]int, count)
 	num := 0
 
-	for item := range s {
+	for num < 10 {
 		//if tempMonth == checkPoint.AddDate(0, 0, 1).Month() {
 		//fmt.Println(tempMonth.String(), "   ", checkPoint.AddDate(0, 0, 1).Month().String())
 		if strings.EqualFold(tempMonth.String(), checkPoint.AddDate(0, 0, 1).Month().String()) {
-			fmt.Print(item, " ")
+			//fmt.Print(item, " ")
 			num += 1
 		} else {
 			return num
@@ -50,7 +51,11 @@ func checkMonthDaysNumber(checkPoint time.Time) int {
 	return num
 }
 func makeDir(tempdir string) {
-	os.Mkdir("./"+tempdir, 755)
+	err := os.Mkdir("./"+tempdir, 755)
+	if err != nil {
+		log.Println(err)
+		//fmt.Println(err)
+	}
 }
 
 func testFor() {
