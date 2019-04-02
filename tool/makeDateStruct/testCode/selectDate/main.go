@@ -29,18 +29,18 @@ func main() {
 	//	testFor()
 	//dateFormat()
 	fmt.Print(checkMonthDaysNumber(time.Now()))
-	//fmt.Println(" remains days")
+	fmt.Println(" remains days")
 }
-func checkMonthDaysNumber(checkPoint time.Time) int {
+func checkMonthDaysNumber(checkPoint time.Time) (num int) {
 	tempMonth := checkPoint.Month()
 	//count := 31
 	//s := make([]int, count)
-	num := 0
-
-	for num < 10 {
+	//num := 0
+	//fmt.Println(tempMonth)
+	for num < 31 {
 		//if tempMonth == checkPoint.AddDate(0, 0, 1).Month() {
-		//fmt.Println(tempMonth.String(), "   ", checkPoint.AddDate(0, 0, 1).Month().String())
-		if strings.EqualFold(tempMonth.String(), checkPoint.AddDate(0, 0, 1).Month().String()) {
+		fmt.Println(tempMonth.String(), "   ", checkPoint.AddDate(0, 0, num).Month().String())
+		if strings.EqualFold(tempMonth.String(), checkPoint.AddDate(0, 0, num).Month().String()) {
 			//fmt.Print(item, " ")
 			num += 1
 		} else {
