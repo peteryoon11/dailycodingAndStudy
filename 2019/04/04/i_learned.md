@@ -63,3 +63,13 @@ sudo firewall-cmd --zone=public --add-port=8000/tcp --permanent
 
 # 방화벽을 리로드합니다.
 sudo firewall-cmd --reload
+
+
+
+
+
+
+
+
+docker 로 개발 db 구축하기 search  by mariadb env vari in docker 
+https://gongzza.github.io/docker/db-sample/
