@@ -21,7 +21,7 @@ https://conory.com/blog/43046
 
 
 
-
+# centos 7 에 mariadb 10.3 깔기 
 https://blog.kerus.net/1022/install-yum-mariadb-10-3-on-centos7
 
 
@@ -38,6 +38,7 @@ https://3unkong.tistory.com/17
 
 
 마리아디비 
+[CentOS7] root 패스워드를 분실 했을때 처리방법
 https://digndig.kr/mysql/793/
 
 
@@ -73,3 +74,10 @@ sudo firewall-cmd --reload
 
 docker 로 개발 db 구축하기 search  by mariadb env vari in docker 
 https://gongzza.github.io/docker/db-sample/
+
+
+
+
+
+
+CREATE DATABASE study_db default CHARACTER SET UTF8;
