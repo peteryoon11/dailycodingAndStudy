@@ -13,7 +13,7 @@ https://algo79.tistory.com/entry/MySQL-%EC%97%90%EB%9F%AC
 
 
 
-# 안맞음
+# 안맞음 / 기본적으로 centos 7 에서는 mariadb 의 버전을 10.3 정도로 사용하는게 좋을듯 하다.
 [문제해결 일지] systemctl start mariadb 실행시 Failed to issue method call: No such file or directory. 에러
 
 https://conory.com/blog/43046
