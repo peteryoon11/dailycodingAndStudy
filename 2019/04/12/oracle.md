@@ -133,3 +133,6 @@ RAC DB:  jdbc:oracle:thin:@(DESCRIPTION=
 
      2  RACDB2 접속하고자 하는 설정
           jdbc:oracle:oci:@TNS_RACDB2
+
+
+https://soul0.tistory.com/219
