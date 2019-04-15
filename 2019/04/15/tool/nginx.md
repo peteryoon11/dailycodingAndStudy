@@ -52,5 +52,5 @@ firewall-cmd --reload
 
 firewall-cmd --list-all
 
-
+https://www.nginx.com/resources/wiki/start/topics/examples/full/
 
