@@ -30,5 +30,7 @@ func main() {
 			//return err
 			fmt.Println(err)
 		}
+		defer rc.Close()
+		fmt.Println(file.FileInfo)
 	}
 }
