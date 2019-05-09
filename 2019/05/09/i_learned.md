@@ -1,6 +1,3 @@
-## bash 
+https://m.blog.naver.com/PostView.nhn?blogId=l77jk&logNo=220721010037&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
-
-grep -f a.log b.log | wc -l
-
-a.log b.log 에서 일치하는 문자열 찾아서 갯수 찾기 
+linux inode 갯수 파악 
