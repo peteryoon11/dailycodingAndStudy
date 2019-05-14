@@ -19,3 +19,9 @@ releation db 에 대한 ?
                 1. 글의 제목 
                 2. 글의 내용 
                 3. 글의 오너 
+
+
+
+review 등록 되는 예제 
+
+https://nolboo.kim/blog/2015/05/05/web-application-architecture/
