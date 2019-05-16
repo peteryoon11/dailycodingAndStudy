@@ -5,9 +5,7 @@ http://rvm.io/
 
 centos 7 에 대해서는 기본 적으로 ruby 2.0 이 깔려서 
 
-<<<<<<< HEAD
 rvm을 깔고 상위 버전을  인스톨 예정
-=======
     1. 테이블 설계하기 
         1. 테이블 종류 
             1. 회원 정보 / userInfo
@@ -28,4 +26,3 @@ rvm을 깔고 상위 버전을  인스톨 예정
 review 등록 되는 예제 
 
 https://nolboo.kim/blog/2015/05/05/web-application-architecture/
->>>>>>> 90fd4ef844e06385b87ce66a975eaf6ccc7ebcd6
