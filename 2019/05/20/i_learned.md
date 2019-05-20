@@ -1,30 +1,10 @@
-http://webframeworks.kr/tutorials/expressjs/expressjs_orm_one/
+## nuxt js 
 
-검색어 sequelize 사용법
-
-
-
-
-https://stackoverflow.com/questions/14169655/sequelize-js-foreign-key
+## nodejs에서의 예외 처리 
+var testValue;
 
 
-var Person = sequelize.define('Person', {
+아래와 같이 처리하면 null, undefined 모두 처리 한다.
+if testValue {
 
-        name: Sequelize.STRING
-});
-
-var Father = sequelize.define('Father', {
-
-        age: Sequelize.STRING,
-        //The magic start here
-        personId: {
-              type: Sequelize.INTEGER,
-              references: 'persons', // <<< Note, its table's name, not object name
-              referencesKey: 'id' // <<< Note, its a column name
-        }
-});
-
-Person.hasMany(Father); // Set one to many relationship
-
-
-sequelize.define
+}
