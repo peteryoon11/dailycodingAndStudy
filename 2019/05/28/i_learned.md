@@ -28,3 +28,17 @@ public static <T extends Comparable<T>> int countGreaterThan(T[] anArray, T elem
     return count;
 }
 ```
+
+massive service for basic 
+대규모 서비스를 지탱하는 기술 
+https://www.slideshare.net/charsyam2/how-to-build-massive-service-for-advance
+https://www.slideshare.net/charsyam2/massive-service-basic
+
+mariaDB 에서의 Galera cluser 구성 
+
+https://m.blog.naver.com/PostView.nhn?blogId=colt357&logNo=221147660477&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+haproxy 와 nginx 에서의 로드밸런싱 예제
+http://think-devops.com/blogs/load-balancing-nginx-haproxy.html
+
+
