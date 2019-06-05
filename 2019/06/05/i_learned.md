@@ -1,7 +1,3 @@
-test
+# https://git-fork.com/
 
-golang 을 oop 적으로 써보자.
-
-https://mingrammer.com/translation-go-and-oop/
-
-https://jacking75.github.io/go_object-oriented/
+mac 용 git tool 추천 받아서 써보려고 한다.
