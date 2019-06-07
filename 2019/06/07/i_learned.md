@@ -1,6 +1,7 @@
-# https://git-fork.com/
+https://academy.realm.io/kr/posts/react-native/
 
-mac 용 git tool 추천 받아서 써보려고 한다.
+react native 를 시작 해 보자.
 
+기존에 android studio 를 통해서 하는 것보다 좀 더 효율적이고 크로스 플랫폼도 지원을 한다고 하니까. 
 
-https://github.com/Gyubin/TIL/blob/master/JavaScript/nodejs/expressjs_fundamental.md
+하나 더 분야를 넓게 보는 것이 될수 있지 않을까 한다. 
