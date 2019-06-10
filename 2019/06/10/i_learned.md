@@ -1,0 +1,1 @@
+https://www.slideshare.net/charsyam2/how-to-become-better-engineer
