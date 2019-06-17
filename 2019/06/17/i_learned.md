@@ -9,3 +9,6 @@ gcloud app deploy app.yaml --project \
 
 
     gcloud app deploy
+http://emerald-lattice-152508.appspot.com/?hl=ko
+
+https://cloud.google.com/appengine/docs/standard/python/getting-started/python-standard-env?hl=ko
