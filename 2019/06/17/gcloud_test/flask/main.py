@@ -25,7 +25,13 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return 'Hello World!'
-
+@app.route('/vertification',methods=["PUT","POST"])
+def vertification():
+    result={"test":"ok"}
+    resp = Response(json.dumps(result))
+    #resp.headers['Access-Control-Allow-Origin'] = '*'
+    resp.headers['Content-Type'] = 'application/json'
+    return resp
 @app.route('/test')
 def test():
     result={"test":"ok"}
