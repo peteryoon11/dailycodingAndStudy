@@ -1,5 +1,5 @@
+https://speakerdeck.com/jaeyeophan/uxbbaemyeon-sice-peureonteuendeu
 
-https://jybaek.tistory.com/575
-https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+https://jusths.tistory.com/m/130?fbclid=IwAR1YfTqVYHupB6hajAnP5ybkPuz0px7F1nLuAGs5rAu4R53CFG1KiI5vw7c
 
-https://m.blog.naver.com/PostView.nhn?blogId=mukuni8086&logNo=221353917387&targetKeyword=&targetRecommendationCode=1
+http://www.ikwisdom.com/2019/06/2.html?m=1
