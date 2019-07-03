@@ -1,0 +1,1 @@
+https://aws.amazon.com/ko/blogs/korea/visualize-over-200-years-of-global-climate-data-using-amazon-athena-and-amazon-quicksight/?sc_channel=sm&sc_campaign=Big_Data_Blog&sc_publisher=FACEBOOK&sc_country=Korea&sc_geo=APAC&sc_outcome=awareness&trk=global-climate-data-analysis-athena-quicksight_FACEBOOK&linkId=69875921
