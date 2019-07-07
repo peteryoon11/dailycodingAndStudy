@@ -1,0 +1,1 @@
+https://speakerdeck.com/jaeyeophan/miri-alassdamyeon-johasseul-geosdeul
