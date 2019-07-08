@@ -1,1 +1,1 @@
-https://speakerdeck.com/jaeyeophan/miri-alassdamyeon-johasseul-geosdeul
+https://item4.github.io/2016-02-02/Must-Do-It-Before-Format-Your-Mac/
