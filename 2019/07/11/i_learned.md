@@ -1,0 +1,1 @@
+http://www.zev23.com/2014/03/npm-install-from-github-or-bitbucket_13.html
