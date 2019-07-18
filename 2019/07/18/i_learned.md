@@ -8,3 +8,5 @@ command + [
 
 
     https://apple.stackexchange.com/questions/254313/how-to-exclude-a-sub-folder-from-icloud-drive-in-macos-sierra
+
+    icloud ignore 파일 이나 폴더
