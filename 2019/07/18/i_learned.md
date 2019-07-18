@@ -5,3 +5,6 @@ command + [
 
     https://rpdmfms.tistory.com/11
     nodejs 에서의 cookie 설정 
+
+
+    https://apple.stackexchange.com/questions/254313/how-to-exclude-a-sub-folder-from-icloud-drive-in-macos-sierra
