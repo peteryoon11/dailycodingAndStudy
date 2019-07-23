@@ -1,0 +1,1 @@
+https://www.popit.kr/redis-%eb%8d%b0%ec%9d%b4%ed%84%b0-%eb%aa%a8%eb%8d%b8%eb%93%a4/
