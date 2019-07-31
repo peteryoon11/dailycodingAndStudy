@@ -1,6 +1,7 @@
-https://jusungpark.tistory.com/52
+https://djkeh.github.io/articles/Why-do-we-put-slash-at-the-end-of-URL-kor/
 
+uri 애서의 
 
-https://dololak.tistory.com/126
+http://egloos.zum.com/namelessja/v/3545494
 
-nodejs log
+javacript 에서의 object property
