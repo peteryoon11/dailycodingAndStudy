@@ -1,5 +1,3 @@
-nodejs 에서의 
+https://brunch.co.kr/@alden/53
 
-import 와 
-
-require를 사용하는 버전에 대한 것을 확인하자.
+https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
