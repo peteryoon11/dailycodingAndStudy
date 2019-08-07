@@ -5,3 +5,5 @@ http://www.devkuma.com/books/pages/484
 postgrel 에서는 dual 없이 
 
 select 로 확인 가능하다.
+
+add test
