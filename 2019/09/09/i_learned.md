@@ -9,7 +9,7 @@ troubleShooting
 
 must know 
 
-자바스크립트에서의 트랜젝션 유지하는 방법?? try catch? 
+conn.transion
 
 
 at DB 
