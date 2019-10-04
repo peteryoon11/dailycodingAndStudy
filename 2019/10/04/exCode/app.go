@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("test")
 
 	a := []int{1, 2, 3, 4, 5}
-	b := 2
+	b := 3
 	fmt.Println(a)
 	fmt.Println(shift(a, b))
 	/*
