@@ -9,7 +9,7 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 
 - 출근 시에 읽은 글 
-
+https://joshua1988.github.io/webpack-guide/guide.html
 
 - must know 
 
@@ -23,10 +23,4 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - quest
 
-a=[1,2,3,4,5]
-b=2
-
--> 
-
-a=[3,4,5,1,2]
 
