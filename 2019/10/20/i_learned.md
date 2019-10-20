@@ -11,9 +11,9 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://github.com/tj/n
-$ n which 6.14.3
-/usr/local/n/versions/6.14.3/bin/node
+https://www.mimul.com/blog/linux-server-operations/
+
+https://bakyeono.net/post/2015-08-13-vim-tab-madness-translate.html
 
 
 인터뷰 사례 
