@@ -1,6 +1,6 @@
 
 
-git add . && git commit -m 'add content for today' && git push origin master
+git add . && git commit -m 'add content for today , article for interview' && git push origin master
 
 - troubleShooting
 
