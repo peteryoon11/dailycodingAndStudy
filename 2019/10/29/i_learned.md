@@ -9,7 +9,6 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://taetaetae.github.io/2019/10/27/a-reason-for-writing/
 
 인터뷰 사례 
 

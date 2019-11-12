@@ -9,7 +9,6 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://engineering.linecorp.com/ko/blog/things-i-prepared-to-be-a-line-server-developer/
 
 인터뷰 사례 
 
