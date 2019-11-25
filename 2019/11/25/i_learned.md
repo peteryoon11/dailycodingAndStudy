@@ -10,7 +10,8 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-
+postgresql 
+array_agg() -> group by 를 통해서 
 - must know 
 
 
