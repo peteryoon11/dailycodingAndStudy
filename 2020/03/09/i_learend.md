@@ -11,7 +11,7 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://ppss.kr/archives/189167
+
 
 
 - must know 
