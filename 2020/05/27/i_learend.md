@@ -24,6 +24,9 @@ https://blog.acronym.co.kr/575
 
 https://12bme.tistory.com/161 mysql 정렬의 처리 방식 
 
+key word mysql between algorithm
+
+
 - must know 
 
 
