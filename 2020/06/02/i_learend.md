@@ -13,6 +13,7 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 https://hyuntaeknote.tistory.com/m/3?fbclid=IwAR2dpUXi8IgiNd5nBYG_73g3EL4ANN7xq7Zbt465YKRqDCmDPCHy8IsjFTs
 
+https://mangkyu.tistory.com/15
 
 - must know 
 
