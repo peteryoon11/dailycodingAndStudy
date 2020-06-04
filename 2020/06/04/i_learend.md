@@ -11,7 +11,7 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://www.youtube.com/watch?v=Dy0ZcaN35cA&list=PL1iR1v6eNy5PhmaTHDUOrFVfta20oEVsj&index=5
+https://www.youtube.com/watch?v=CjsVx9sARDU&list=PL1iR1v6eNy5PhmaTHDUOrFVfta20oEVsj
 
 - must know 
 
