@@ -29,3 +29,5 @@ git add . && git commit -m 'add content for today' && git push origin master
 맥에서 아파치 실행하기 
 
 https://xho95.github.io/macos/apache/webserver/mod_wsgi/2016/10/02/Apache-WebServer.html
+
+https://xho95.github.io/macos/apache/webserver/mod_wsgi/2016/10/02/Apache-WebServer.html
