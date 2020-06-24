@@ -29,3 +29,5 @@ git add . && git commit -m 'add content for today' && git push origin master
 - TODO , 개념이랑 설명 사항들 
 
 
+vi httpd.conf
+cd /Library/WebServer/Documents/
