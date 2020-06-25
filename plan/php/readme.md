@@ -1,3 +1,4 @@
+mac 에서 아파치 
 
 https://gongdoll.tistory.com/14
 
@@ -11,3 +12,7 @@ DocumentRoot "/Library/WebServer/Documents"
 <Directory "/Library/WebServer/Documents"
 
 sudo apachectl graceful
+
+-----
+
+https://hyangeun.tistory.com/8
