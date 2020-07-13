@@ -28,4 +28,3 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - TODO , 개념이랑 설명 사항들 
 
-https://woowabros.github.io/experience/2020/07/06/db-sharding.html
