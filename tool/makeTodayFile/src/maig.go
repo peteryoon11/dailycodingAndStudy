@@ -62,6 +62,10 @@ func showTodayDate() {
 	}
 
 	currentDirName := ss[len(ss)-1]
+	fmt.Println("len ",len(ss))
+	for item,value := range ss{
+		fmt.Println(item," ", value)
+	}
 
 	fmt.Println("Current Directory Name: ", currentDirName)
 	fmt.Println(os.Stat(currentDirName))
