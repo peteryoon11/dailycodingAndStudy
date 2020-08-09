@@ -43,9 +43,11 @@ func showTodayDate() {
 	fmt.Println(time.Now())
 	fmt.Println(time.Now().Format("2019-12-08"))
 
-	formatted := fmt.Sprintf("%d-%02d-%02dT%02d:%02d:%02d",
+	formatted := fmt.Sprintf("%d/%02d/%02d",
+		//  T%02d:%02d:%02d",
 		t.Year(), t.Month(), t.Day(),
-		t.Hour(), t.Minute(), t.Second())
+		// t.Hour(), t.Minute(), t.Second()
+	)
 
 	fmt.Println(formatted)
 
@@ -62,9 +64,18 @@ func showTodayDate() {
 	}
 
 	currentDirName := ss[len(ss)-1]
-	fmt.Println("len ",len(ss))
-	for item,value := range ss{
-		fmt.Println(item," ", value)
+	currentDirName2 := ""
+	if runtime.GOOS == "windows" {
+		currentDirName2 = strings.Join(ss[0:len(ss)-1], "\\")
+	} else {
+		currentDirName2 = strings.Join(ss[0:len(ss)-1], "/")
+	}
+
+	fmt.Println("currentDirName2 ", currentDirName2)
+
+	fmt.Println("len ", len(ss))
+	for item, value := range ss {
+		fmt.Println(item, " ", value)
 	}
 
 	fmt.Println("Current Directory Name: ", currentDirName)
