@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"runtime"
@@ -38,18 +39,26 @@ func main() {
 	showTodayDate()
 }
 func showTodayDate() {
-	t := time.Now()
+	yesterdayTime := time.Now().AddDate(0, 0, -1)
+	todayTime := time.Now()
 	fmt.Println("test")
 	fmt.Println(time.Now())
 	fmt.Println(time.Now().Format("2019-12-08"))
 
-	formatted := fmt.Sprintf("%d/%02d/%02d",
+	yesterday := fmt.Sprintf("%d/%02d/%02d",
 		//  T%02d:%02d:%02d",
-		t.Year(), t.Month(), t.Day(),
+		yesterdayTime.Year(), yesterdayTime.Month(), yesterdayTime.Day(),
 		// t.Hour(), t.Minute(), t.Second()
 	)
 
-	fmt.Println(formatted)
+	today := fmt.Sprintf("%d/%02d/%02d",
+		//  T%02d:%02d:%02d",
+		todayTime.Year(), todayTime.Month(), todayTime.Day(),
+		// t.Hour(), t.Minute(), t.Second()
+	)
+
+	fmt.Println(yesterday)
+	fmt.Println(today)
 
 	dir, err := os.Getwd()
 	if err != nil {
@@ -63,26 +72,41 @@ func showTodayDate() {
 		ss = strings.Split(dir, "/")
 	}
 
-	currentDirName := ss[len(ss)-1]
+	// currentDirName := ss[len(ss)-1]
 	currentDirName2 := ""
 	if runtime.GOOS == "windows" {
-		currentDirName2 = strings.Join(ss[0:len(ss)-1], "\\")
+		currentDirName2 = strings.Join(ss[0:len(ss)-3], "\\")
 	} else {
-		currentDirName2 = strings.Join(ss[0:len(ss)-1], "/")
+		currentDirName2 = strings.Join(ss[0:len(ss)-3], "/")
 	}
 
 	fmt.Println("currentDirName2 ", currentDirName2)
 
-	fmt.Println("len ", len(ss))
-	for item, value := range ss {
-		fmt.Println(item, " ", value)
+	dir1 := currentDirName2 + "/" + yesterday + "/i_learend.md"
+	sourceFile, err := os.Open(dir1)
+	if err != nil {
+		log.Fatal(err)
 	}
+	defer sourceFile.Close()
 
-	fmt.Println("Current Directory Name: ", currentDirName)
-	fmt.Println(os.Stat(currentDirName))
+	dir2 := currentDirName2 + "/" + today + "/i_learend.md"
+	os.MkdirAll(currentDirName2+"/"+today, 0755)
+	// Create new file
 
-	temp, err := os.Stat(currentDirName)
-	fmt.Println(" temp ", temp)
-	fmt.Println(" err ", err)
+	newFile, err := os.Create(dir2)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer newFile.Close()
+
+	bytesCopied, err := io.Copy(newFile, sourceFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("Copied %d bytes.", bytesCopied)
+
+	// temp, err := os.Stat(currentDirName)
+	// fmt.Println(" temp ", temp)
+	// fmt.Println(" err ", err)
 
 }
