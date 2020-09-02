@@ -11,6 +11,8 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
+https://jojoldu.tistory.com/522
+https://jybaek.tistory.com/m/878
 
 - must know 
 
