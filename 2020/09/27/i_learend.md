@@ -11,7 +11,7 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 - 출근 시에 읽은 글 
 
-https://velog.io/@760kry/react-native-codepush?fbclid=IwAR0uwQ36ldMCEqKmclH8DzwCxRoF3sl5ajcXK3Z_Lue97watNHe5q-VG7iA
+https://gracefullight.dev/2020/01/13/Dockerfile%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83/?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR0ZZxcLOMGzpHDFHAgt9QRQSOdjo_TfKsOf8UJ0Wzb4yTlTI1SGIlusGzM
 
 - must know 
 
@@ -26,11 +26,8 @@ https://velog.io/@760kry/react-native-codepush?fbclid=IwAR0uwQ36ldMCEqKmclH8DzwC
 
 - TODO , 개념이랑 설명 사항들 
 
-AWS Builers Online 
+- Toy Project things
 
-CodeCommit, CodeBuild
-
-DevOps
-
-LightSails
-
+    - msa
+    - golang 
+    - docker 
