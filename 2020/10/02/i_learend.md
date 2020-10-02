@@ -30,3 +30,10 @@ git add . && git commit -m 'add content for today' && git push origin master
     - msa
     - golang 
     - docker 
+
+
+https://emflant.tistory.com/235
+
+docker redis 
+
+https://jistol.github.io/docker/2017/09/01/docker-redis/
