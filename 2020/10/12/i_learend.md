@@ -34,12 +34,3 @@ git add . && git commit -m 'add content for today' && git push origin master
 - TODO
     - 
     https://wikidocs.net/91422
-
-
-django
-    https://kyuhyuk.kr/article/python/2020/08/15/Django-Board-Post-View
-
-
-flask 로 블로그 만들기 
-
-https://opentutorials.org/module/3669/22003
