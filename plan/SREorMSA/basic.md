@@ -5,3 +5,5 @@ kubernetes, msa,
 golang, grpc
 
 
+step 정하기.
+1. golang 
