@@ -29,6 +29,5 @@ https://brunch.co.kr/@mingus#articles
     - docker 
 
 - TODO
-    - https://blog.banksalad.com/tech/production-ready-grpc-in-golang/?gclid=CjwKCAiA-f78BRBbEiwATKRRBHLZ9CNqchnn61xKB8ZCH9FY5WsEFKAf7v2Fns2paR-GgSeDH-4GRxoCGMcQAvD_BwE
-    - golang 으로 grpc
+    - 
 
