@@ -21,14 +21,7 @@ func main() {
 	cmd_string := "cp -r " + temp + "/dir1" + " " + temp + "/dir2"
 
 	fmt.Println(cmd_string)
-	// out_1, _ := exec.Command(cmd_string).Output()
-	// fmt.Println(string(out_1))
 
-	// cmd = exec.Command("sh", "-c", "echo hello,world!")
-	// cmd := exec.Command("cp", "-r", temp+"/dir1", temp+"/dir2")
-	// cmd := exec.Command("cp", "-r", "dir1", "dir2")
-	// stdoutStderr, _ := cmd.CombinedOutput()
-	// fmt.Println(string(stdoutStderr))
 	yesterday, today := getTodayAndYesterday()
 	separate := getSeparate()
 
