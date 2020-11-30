@@ -34,10 +34,10 @@ func main() {
 	fmt.Println("dir1 ", dir1)
 	fmt.Println("dir2 ", dir2)
 
-	cmd2 := exec.Command("mkdir", dir2)
-	stdoutStderr, _ := cmd2.CombinedOutput()
+	// cmd2 := exec.Command("mkdir", dir2)
+	// stdoutStderr, _ := cmd2.CombinedOutput()
 	cmd := exec.Command("cp", "-r", dir1, dir2)
-	stdoutStderr, _ = cmd.CombinedOutput()
+	stdoutStderr, _ := cmd.CombinedOutput()
 	fmt.Println(string(stdoutStderr))
 
 }
