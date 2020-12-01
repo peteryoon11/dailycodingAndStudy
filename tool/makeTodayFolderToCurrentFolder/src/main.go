@@ -28,18 +28,47 @@ func main() {
 	transDir := getPath(separate)
 
 	dir1 := transDir + separate + yesterday
+	// dir1_high := transDir + separate
 
 	dir2 := transDir + separate + today
 
-	fmt.Println("dir1 ", dir1)
-	fmt.Println("dir2 ", dir2)
+	fmt.Println("!!! transDir ", transDir)
+	fmt.Println("!!! dir1 ", dir1)
+	fmt.Println("!!! dir2 ", dir2)
+	fmt.Println("!!! yesterday ", yesterday)
+	fmt.Println("!!! today ", today)
 
-	cmd2 := exec.Command("mkdir", dir2)
+	temp_dir := ""
+	for item, value := range strings.Split(today, separate) {
+		fmt.Println("item!! ", item, "value ", value)
+		if item == 2 {
+			break
+		}
+
+		if item > 0 {
+			temp_dir += separate + value
+		} else {
+			temp_dir += value
+		}
+
+		// cmd3 := exec.Command("mkdir", "-p", temp_dir)
+		// stdoutStderr4, _ := cmd3.CombinedOutput()
+		// fmt.Println(string(stdoutStderr4))
+	}
+
+	fmt.Println("temp_dir ", temp_dir)
+	touch_file_name := "i_learend.md"
+	cmd1 := exec.Command("mkdir", "-p", dir2)
+	stdoutStderr1, _ := cmd1.CombinedOutput()
+	fmt.Println(string(stdoutStderr1))
+
+	cmd2 := exec.Command("touch", dir2+separate+touch_file_name)
 	stdoutStderr2, _ := cmd2.CombinedOutput()
 	fmt.Println(string(stdoutStderr2))
-	cmd := exec.Command("cp", "-r", dir1, dir2)
-	stdoutStderr, _ := cmd.CombinedOutput()
-	fmt.Println(string(stdoutStderr))
+	// cmd := exec.Command("cp", "-r", dir1, dir2)
+	cmd3 := exec.Command("cp", dir1+separate+touch_file_name, dir2+separate+touch_file_name)
+	stdoutStderr3, _ := cmd3.CombinedOutput()
+	fmt.Println(string(stdoutStderr3))
 
 }
 
