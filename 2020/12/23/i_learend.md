@@ -31,3 +31,8 @@ git add . && git commit -m 'add content for today' && git push origin master
 
 
 https://velog.io/@tura/reasons-that-you-should-write-anyway
+
+
+그날 추가한 부분이 저장 되지 않는다.
+
+순서를 바꾸어야 하나..
