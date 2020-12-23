@@ -30,6 +30,4 @@ git add . && git commit -m 'add content for today' && git push origin master
     - 
 
 
-GCP 에서의 도메인 연결하는 방법을 찾고 있음.
-- 기존에는 어떻게 한것인지?
-- 
+https://velog.io/@tura/reasons-that-you-should-write-anyway
